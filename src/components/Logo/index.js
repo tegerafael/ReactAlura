@@ -4,7 +4,7 @@ import "./style.css";
 function Logo() {
   return (
     <div className="logo">
-      <img src={logo} alt="logo"></img>
+      <img src={logo} alt="logo" className="logo-img"></img>
       <p>
         <strong>Alura</strong>Books
       </p>
